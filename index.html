@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="mainform">
+        <form id="form1" action="result.html" method="GET">
+            <div class="heading">
+                <h1>get started today</h1>
+            </div>
+            <div class="label1">
+                <label class="firstlabel">First Name</label>
+                <label class="secondlabel">Last Name</label>
+            </div>
+            <div class="input1">
+                <input id="firstname" name="firstname" type="text" placeholder="First Name" required>
+                <input id="lastname" name="lastname" class="input-ext" type="text" placeholder="Last Name" required>
+            </div>
+            <div class="label1">
+                <label class="emaillabel">Email Address</label>
+                <label class="passwordlabel">Password</label>
+            </div>
+            <div class="input1">
+                <input id="email" name="email" type="email" placeholder="Email Address" required>
+                <input id="password" name="password" class="input-ext" type="password" placeholder="Password" required>
+            </div>
+            <div class="buttondiv">
+                <button id="btn" type="submit">Submit your inputs</button>
+            </div>
+            <div class="footer">
+                <span>you are agreeing to our</span>
+                <a href="#">Terms and conditions</a>
+            </div>
+        </form>
+    </section>
+</body>
+<script src="js/main.js"></script>
+</html>
